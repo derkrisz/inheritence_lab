@@ -24,4 +24,8 @@ public class Employee {
     public int getSalary() {
         return salary;
     }
+
+    public void increaseSalary(double increase) {
+        this.salary += increase;
+    }
 }
