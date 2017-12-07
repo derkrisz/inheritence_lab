@@ -28,4 +28,8 @@ public class Employee {
     public void increaseSalary(double increase) {
         this.salary += increase;
     }
+
+    public int payBonus() {
+        return this.salary/100;
+    }
 }
